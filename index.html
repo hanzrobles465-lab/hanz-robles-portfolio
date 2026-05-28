@@ -1,0 +1,405 @@
+    <!DOCTYPE html>
+    <html lang="ja">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Hanz Robles | Portfolio</title>
+      <link rel="icon" type="image/png" href="images/logo-hanz.webp">
+      <meta name="description" content="Hanz Robles - Web creator / front-end portfolio in Japan." />
+
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+      <!-- Icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+      <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+      <header class="site-header">
+        <div class="container header-inner">
+          <a href="#" class="logo" aria-label="Hanz Robles Home">
+            <span class="logo-mark">H</span>
+            <div>
+              <strong>Hanz Robles</strong>
+              <small data-ja="Web制作者 / フロントエンド志望" data-es="Creador Web / Aspirante a Front-end">Web制作者 / フロントエンド志望</small>
+            </div>
+          </a>
+
+          <nav class="desktop-nav" aria-label="Main navigation">
+            <a href="#about" data-ja="自己紹介" data-es="Sobre mí">自己紹介</a>
+            <a href="#skills" data-ja="スキル" data-es="Habilidades">スキル</a>
+            <a href="#projects" data-ja="制作実績" data-es="Proyectos">制作実績</a>
+            <a href="#experience" data-ja="経歴" data-es="Experiencia">経歴</a>
+            <a href="#contact" data-ja="お問い合わせ" data-es="Contacto">お問い合わせ</a>
+          </nav>
+
+          <div class="header-actions">
+            <div class="language-switch" aria-label="Language switch">
+              <button class="lang-btn active" type="button" data-lang="ja">日本語</button>
+              <button class="lang-btn" type="button" data-lang="es">Español</button>
+            </div>
+
+            <button class="menu-toggle" type="button" aria-label="Open menu">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+
+        <nav class="mobile-nav" aria-label="Mobile navigation">
+          <a href="#about" data-ja="自己紹介" data-es="Sobre mí">自己紹介</a>
+          <a href="#skills" data-ja="スキル" data-es="Habilidades">スキル</a>
+          <a href="#projects" data-ja="制作実績" data-es="Proyectos">制作実績</a>
+          <a href="#experience" data-ja="経歴" data-es="Experiencia">経歴</a>
+          <a href="#contact" data-ja="お問い合わせ" data-es="Contacto">お問い合わせ</a>
+        </nav>
+      </header>
+
+      <main>
+        <!-- HERO -->
+        <section class="hero">
+  <img
+    class="hero-bg-art"
+    src="images/ChatGPT-Image-26-may-2026_-16_24_23.webp"
+    alt=""
+    aria-hidden="true"
+  />
+
+  <div class="container hero-grid">
+            <div class="hero-content">
+              <p class="eyebrow" data-ja="名古屋在住 / 日本で就職活動中" data-es="Vivo en Nagoya / Buscando trabajo en Japón">
+                名古屋在住 / 日本で就職活動中
+              </p>
+
+              <h1>
+                <span data-ja="日本で働きたい" data-es="Quiero trabajar en Japón">日本で働きたい</span>
+                <strong data-ja="Web制作者・フロントエンド志望" data-es="como creador web / front-end">Web制作者・フロントエンド志望</strong>
+              </h1>
+
+              <p class="hero-text" data-ja="名古屋在住。HTML / CSS / JavaScript / WordPress・ACFを中心に、見やすく使いやすいWebサイト制作を学びながら、実務レベルを目指しています。日本語・スペイン語対応。" data-es="Vivo en Nagoya. Estoy desarrollando mis habilidades en HTML, CSS, JavaScript, WordPress y ACF, con el objetivo de crear sitios web claros, fáciles de usar y adecuados para un entorno profesional. Disponible en japonés y español.">
+                名古屋在住。HTML / CSS / JavaScript / WordPress・ACFを中心に、見やすく使いやすいWebサイト制作を学びながら、実務レベルを目指しています。日本語・スペイン語対応。
+              </p>
+
+              <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                  <i class="fa-solid fa-display"></i>
+                  <span data-ja="作品を見る" data-es="Ver proyectos">作品を見る</span>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                  <i class="fa-regular fa-envelope"></i>
+                  <span data-ja="お問い合わせ" data-es="Contactarme">お問い合わせ</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-photo-wrap" aria-label="Profile photo">
+  <img
+    class="hero-photo"
+    src="images/profile.webp"
+    alt="Hanz Robles profile photo"
+  />
+</div>
+          </div>
+        </section>
+
+        <!-- QUICK CARDS -->
+        <section class="quick-info">
+          <div class="container quick-grid">
+            <article class="info-card">
+              <i class="fa-regular fa-id-card"></i>
+              <div>
+                <h3 data-ja="在留資格" data-es="Visa">在留資格</h3>
+                <p data-ja="日本人の配偶者等" data-es="Cónyuge de japonés">日本人の配偶者等</p>
+                <span data-ja="就労制限なし" data-es="Sin restricción laboral">就労制限なし</span>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <i class="fa-regular fa-comments"></i>
+              <div>
+                <h3 data-ja="日本語レベル" data-es="Nivel de japonés">日本語レベル</h3>
+                <p>JLPT N4</p>
+                <span data-ja="学習・業務対応可能" data-es="En aprendizaje continuo">学習・業務対応可能</span>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h3 data-ja="居住地" data-es="Residencia">居住地</h3>
+                <p data-ja="愛知県 名古屋市" data-es="Nagoya, Aichi">愛知県 名古屋市</p>
+                <span data-ja="通勤可能エリア" data-es="Disponible para trabajar">通勤可能エリア</span>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <i class="fa-solid fa-briefcase"></i>
+              <div>
+                <h3 data-ja="勤務形態" data-es="Modalidad">勤務形態</h3>
+                <p data-ja="フルタイム希望" data-es="Busco tiempo completo">フルタイム希望</p>
+                <span data-ja="出社・リモート相談可" data-es="Presencial o remoto negociable">出社・リモート相談可</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- ABOUT + SKILLS -->
+        <section class="section two-column" id="about">
+          <div class="container content-grid">
+            <article class="panel">
+              <div class="section-title">
+                <i class="fa-solid fa-user"></i>
+                <h2 data-ja="自己紹介" data-es="Sobre mí">自己紹介</h2>
+              </div>
+
+              <p data-ja="ペルー出身、名古屋在住のWeb制作者です。システム工学の知識と日本での学習・経験を活かし、ユーザーにとって見やすく、使いやすいWebサイト制作を目指しています。" data-es="Soy un creador web peruano que vive en Nagoya, Japón. Aprovecho mis conocimientos de ingeniería de sistemas y mi experiencia de aprendizaje en Japón para crear sitios web claros, ordenados y fáciles de usar.">
+                ペルー出身、名古屋在住のWeb制作者です。システム工学の知識と日本での学習・経験を活かし、ユーザーにとって見やすく、使いやすいWebサイト制作を目指しています。
+              </p>
+
+              <p data-ja="HTML / CSS / JavaScriptを中心に、WordPressやACFを使ったサイト制作にも取り組んでいます。分からないことも自分で調べながら解決し、チームに貢献できるよう誠実に学び続けています。" data-es="Trabajo principalmente con HTML, CSS y JavaScript, y también practico con WordPress y ACF. Cuando encuentro algo que no entiendo, investigo, pruebo y busco resolverlo con responsabilidad para poder contribuir al equipo.">
+                HTML / CSS / JavaScriptを中心に、WordPressやACFを使ったサイト制作にも取り組んでいます。分からないことも自分で調べながら解決し、チームに貢献できるよう誠実に学び続けています。
+              </p>
+
+              <div class="profile-mini-grid">
+                <div><strong data-ja="名前" data-es="Nombre">名前</strong><span>Hanz Robles</span></div>
+                <div><strong data-ja="言語" data-es="Idiomas">言語</strong><span data-ja="日本語 N4 / スペイン語 母語" data-es="Japonés N4 / Español nativo">日本語 N4 / スペイン語 母語</span></div>
+                <div><strong data-ja="学歴" data-es="Formación">学歴</strong><span data-ja="システム工学" data-es="Ingeniería de Sistemas">システム工学</span></div>
+                <div><strong data-ja="ビザ" data-es="Visa">ビザ</strong><span data-ja="就労制限なし" data-es="Sin restricción laboral">就労制限なし</span></div>
+              </div>
+            </article>
+
+            <article class="panel" id="skills">
+              <div class="section-title">
+                <i class="fa-solid fa-code"></i>
+                <h2 data-ja="スキル" data-es="Habilidades">スキル</h2>
+              </div>
+
+              <div class="skills-grid">
+                <div class="skill-card"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+                <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+                <div class="skill-card"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                <div class="skill-card"><i class="fa-solid fa-laptop-code"></i><span>Responsive</span></div>
+                <div class="skill-card"><i class="fa-brands fa-wordpress"></i><span>WordPress</span></div>
+                <div class="skill-card"><i class="fa-solid fa-layer-group"></i><span>ACF</span></div>
+                <div class="skill-card"><i class="fa-brands fa-php"></i><span>PHP Basic</span></div>
+                <div class="skill-card"><i class="fa-brands fa-figma"></i><span>Figma</span></div>
+                <div class="skill-card"><i class="fa-solid fa-pen-ruler"></i><span>Adobe XD</span></div>
+                <div class="skill-card"><i class="fa-solid fa-terminal"></i><span>VS Code</span></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+          <div class="container">
+            <div class="section-header">
+              <div class="section-title">
+                <i class="fa-solid fa-folder-open"></i>
+                <h2 data-ja="制作実績" data-es="Proyectos">制作実績</h2>
+              </div>
+              <a href="#contact" class="text-link" data-ja="お問い合わせへ" data-es="Ir a contacto">お問い合わせへ</a>
+            </div>
+
+            <div class="projects-grid">
+              <a href="restaurant/restaurant.html" class="project-card">
+                <div class="project-thumb thumb-1"></div>
+                <div class="project-body">
+                  <h3 
+      data-ja="デジタルメニュー" 
+      data-es="Menú digital interactivo">
+      デジタルメニュー
+    </h3>
+    <p 
+      data-ja="日本食レストラン向けのデジタル注文メニューです。商品カテゴリー、詳細表示、カート機能、合計金額の計算を実装しました。" 
+      data-es="Menú digital para restaurante japonés con categorías, detalle de productos, carrito interactivo y cálculo total del pedido.">
+      日本食レストラン向けのデジタル注文メニューです。商品カテゴリー、詳細表示、カート機能、合計金額の計算を実装しました。
+    </p>
+                  <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>UI/UX</span></div>
+                </div>
+              </a>
+
+              <a href="booknest-library/index.html" class="project-card">
+                <div class="project-thumb thumb-2"></div>
+                <div class="project-body">
+                  <h3 
+      data-ja="図書館管理アプリ" 
+      data-es="Sistema de biblioteca digital">
+      図書館管理アプリ
+    </h3>
+
+    <p 
+      data-ja="ログイン、ユーザー権限、書籍管理、在庫管理、カート、レンタル機能を実装した図書館アプリです。" 
+      data-es="Aplicación de biblioteca con login, roles de usuario, administración de libros, stock, carrito y alquiler.">
+      ログイン、ユーザー権限、書籍管理、在庫管理、カート、レンタル機能を実装した図書館アプリです。
+    </p>
+                 <div class="tags">
+      <span>JavaScript</span>
+      <span>LocalStorage</span>
+      <span>CRUD</span>
+      <span>Auth</span>
+    </div>
+                </div>
+              </a>
+
+              <a href="wordpress-acf/wordpress-acf.html" class="project-card">
+  <div class="project-thumb thumb-3"></div>
+
+  <div class="project-body">
+    <h3 
+      data-ja="WordPress企業サイト" 
+      data-es="Página corporativa en WordPress">
+      WordPress企業サイト
+    </h3>
+
+    <p 
+      data-ja="無料版ACFを使って、管理画面からテキストや画像を編集できる企業向けランディングページを制作しました。" 
+      data-es="Landing page corporativa editable desde WordPress usando ACF gratuito para modificar textos e imágenes.">
+      無料版ACFを使って、管理画面からテキストや画像を編集できる企業向けランディングページを制作しました。
+    </p>
+
+    <div class="tags">
+      <span>WordPress</span>
+      <span>ACF</span>
+      <span>PHP</span>
+      <span>Custom Theme</span>
+    </div>
+  </div>
+</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- EXPERIENCE + WORK JAPAN -->
+        <section class="section">
+          <div class="container content-grid">
+            <article class="panel" id="experience">
+              <div class="section-title">
+                <i class="fa-solid fa-timeline"></i>
+                <h2 data-ja="経歴" data-es="Experiencia">経歴</h2>
+              </div>
+
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span>2024年4月 – 2026年4月</span>
+                  <h3 data-ja="名古屋国際学院　卒業" data-es="Nagoya International Academy — Graduado">名古屋国際学院　卒業</h3>
+                  <p data-ja="日本語を約2年間学習し、JLPT N4レベルの日本語力を身につけました。" data-es="Estudié japonés durante aproximadamente dos años y alcancé un nivel equivalente a JLPT N4.">
+                    日本語を約2年間学習し、JLPT N4レベルの日本語力を身につけました。
+                  </p>
+                </div>
+
+                <div class="timeline-item">
+                  <span>2020年 – 現在</span>
+                  <h3 data-ja="Universidad Tecnológica del Perú（UTP）システム工学科　在学中" data-es="Universidad Tecnológica del Perú（UTP）Ingeniería de Sistemas">Universidad Tecnológica del Perú（UTP）システム工学科　在学中</h3>
+                  <p data-ja="プログラミング、データベース、ネットワークなど、システム開発に関する基礎知識を学びました。" data-es="Estudié bases de programación, bases de datos, redes y conocimientos relacionados con el desarrollo de sistemas.">
+                    プログラミング、データベース、ネットワークなど、システム開発に関する基礎知識を学びました。
+                  </p>
+                </div>
+
+                <div class="timeline-item">
+                  <span>2019年 – 2023年</span>
+                  <h3 data-ja="テクニカルサポート・Web制作関連業務" data-es="Soporte técnico y trabajos relacionados con producción web">テクニカルサポート・Web制作関連業務</h3>
+                  <p data-ja="PCのメンテナンス、ネットワーク設定、カメラ設置、Webページ制作やデザイン改善などを経験しました。" data-es="Tengo experiencia en mantenimiento de computadoras, configuración de redes, instalación de cámaras, creación de páginas web y mejoras de diseño.">
+                    PCのメンテナンス、ネットワーク設定、カメラ設置、Webページ制作やデザイン改善などを経験しました。
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="panel">
+              <div class="section-title">
+                <i class="fa-solid fa-torii-gate"></i>
+                <h2 data-ja="日本で働くことについて" data-es="Sobre trabajar en Japón">日本で働くことについて</h2>
+              </div>
+
+              <div class="work-list">
+                <div>
+                  <i class="fa-regular fa-id-badge"></i>
+                  <div>
+                    <h3 data-ja="在留資格" data-es="Visa">在留資格</h3>
+                    <p data-ja="日本人の配偶者等 / 就労制限なし" data-es="Cónyuge de japonés / Sin restricción laboral">日本人の配偶者等 / 就労制限なし</p>
+                  </div>
+                </div>
+
+                <div>
+                  <i class="fa-regular fa-message"></i>
+                  <div>
+                    <h3 data-ja="日本語レベル" data-es="Nivel de japonés">日本語レベル</h3>
+                    <p data-ja="JLPT N4 / 日常会話・業務連絡を学習中" data-es="JLPT N4 / Aprendiendo comunicación diaria y laboral">JLPT N4 / 日常会話・業務連絡を学習中</p>
+                  </div>
+                </div>
+
+                <div>
+                  <i class="fa-regular fa-clock"></i>
+                  <div>
+                    <h3 data-ja="勤務形態" data-es="Modalidad de trabajo">勤務形態</h3>
+                    <p data-ja="フルタイム希望 / 出社・リモート相談可能" data-es="Busco trabajo a tiempo completo / Presencial o remoto negociable">フルタイム希望 / 出社・リモート相談可能</p>
+                  </div>
+                </div>
+
+                <div>
+                  <i class="fa-regular fa-heart"></i>
+                  <div>
+                    <h3 data-ja="強み" data-es="Fortalezas">強み</h3>
+                    <p data-ja="素直に学ぶ姿勢 / 自分で調べて改善する力" data-es="Actitud para aprender / Capacidad para investigar y mejorar">素直に学ぶ姿勢 / 自分で調べて改善する力</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section contact-section" id="contact">
+          <div class="container">
+            <div class="contact-panel">
+              <div>
+                <div class="section-title">
+                  <i class="fa-regular fa-envelope"></i>
+                  <h2 data-ja="お問い合わせ" data-es="Contacto">お問い合わせ</h2>
+                </div>
+                <p data-ja="お気軽にご連絡ください。" data-es="Puedes escribirme si deseas conocer más sobre mi trabajo.">お気軽にご連絡ください。</p>
+              </div>
+
+              <div class="contact-actions">
+                <a class="contact-card" href="mailto:hanzrobles465@gmail.com">
+                  <i class="fa-regular fa-envelope"></i>
+                  <strong>Email</strong>
+                  <span>hanzrobles465@gmail.com</span>
+                </a>
+
+                <a class="contact-card" href="#" target="_blank" rel="noopener">
+                  <i class="fa-brands fa-github"></i>
+                  <strong>GitHub</strong>
+                  <span data-ja="コードを見る" data-es="Ver código">コードを見る</span>
+                </a>
+
+                <a class="contact-card" href="#" target="_blank" rel="noopener">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <strong>LinkedIn</strong>
+                  <span data-ja="プロフィール" data-es="Perfil">プロフィール</span>
+                </a>
+
+                <a class="btn btn-primary contact-main-btn" href="mailto:hanzrobles465@gmail.com">
+                  <i class="fa-solid fa-paper-plane"></i>
+                  <span data-ja="メッセージを送る" data-es="Enviar mensaje">メッセージを送る</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <p>© 2026 Hanz Robles. All Rights Reserved.</p>
+          <p data-ja="Made with care in Japan." data-es="Hecho con dedicación en Japón.">Made with care in Japan.</p>
+        </div>
+      </footer>
+
+      <script src="js/main.js"></script>
+    </body>
+    </html>
