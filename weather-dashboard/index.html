@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather API Dashboard | Hanz Robles</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <section class="hero">
+      <a class="back-link" href="../index.html">← Portafolio</a>
+      <p class="eyebrow">API Project</p>
+      <h1>Weather API Dashboard</h1>
+      <p>Busca una ciudad y revisa clima actual, humedad, viento y pronostico semanal usando datos reales de Open-Meteo.</p>
+    </section>
+
+    <section class="search-panel" aria-label="Weather search">
+      <form id="weatherForm">
+        <label for="cityInput">Ciudad</label>
+        <div class="search-row">
+          <input id="cityInput" name="city" type="search" value="Nagoya" autocomplete="off" required />
+          <button type="submit">Buscar</button>
+        </div>
+      </form>
+      <p id="status" role="status">Listo para buscar.</p>
+    </section>
+
+    <section class="weather-grid" aria-live="polite">
+      <article class="current-card">
+        <p class="label">Clima actual</p>
+        <h2 id="cityName">Nagoya</h2>
+        <div class="temperature"><span id="temperature">--</span><small>°C</small></div>
+        <p id="summary">Consulta la API para cargar datos.</p>
+      </article>
+
+      <article class="metric-card">
+        <span>Humedad</span>
+        <strong id="humidity">--%</strong>
+      </article>
+
+      <article class="metric-card">
+        <span>Viento</span>
+        <strong id="wind">-- km/h</strong>
+      </article>
+
+      <article class="metric-card">
+        <span>Sensacion</span>
+        <strong id="feelsLike">-- °C</strong>
+      </article>
+    </section>
+
+    <section class="forecast-panel">
+      <div class="panel-header">
+        <h2>Pronostico</h2>
+        <span>7 dias</span>
+      </div>
+      <div id="forecast" class="forecast-grid"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
