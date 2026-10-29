@@ -62,7 +62,7 @@ story.append(Paragraph("Web &amp; Frontend Developer &mdash; Full Stack knowledg
 story.append(Paragraph(
     "hanzrobles465@gmail.com &nbsp;|&nbsp; 090-8542-2726 &nbsp;|&nbsp; "
     "github.com/hanzrobles465-lab &nbsp;|&nbsp; "
-    "linkedin.com/in/hanz-roblese-a20a391b5 &nbsp;|&nbsp; Nagoya, Japan",
+    "linkedin.com/in/hanz-robles-a20a391b5 &nbsp;|&nbsp; Yamanashi, Japan",
     contact_style,
 ))
 story.append(Paragraph(
